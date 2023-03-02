@@ -1,0 +1,10 @@
+#navbar{
+    top: 0px;
+    position: sticky;
+    background-color: aqua;
+}
+
+div#navbar ul li{
+    display: inline;
+    margin-right: 20px;
+}

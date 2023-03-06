@@ -1,0 +1,87 @@
+header{
+    background-color: deeppink;
+    height: 90px;
+    color: black;
+    text-align: center;
+    font-size: larger;
+
+}
+nav > ul{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row nowrap;
+}
+nav > ul >li{
+    margin: 0px 30px 0px 30px;
+}
+div{
+display: flex;
+flex-flow: row nowrap;
+}
+@media screen and (max-width:600px) {
+    div{
+        flex-flow: row nowrap; 
+    }
+}
+aside{
+    flex: 30%;
+    border-style: dotted;
+    max-height: 300px;
+    border-color: blue;
+}
+ p{
+    margin-left: 5px;
+    text-align: center;
+}
+form{
+    border-style: groove;
+border-color: rgb(180, 71, 93);
+    margin-top: 4px;
+    margin-left: 4px;
+    margin-right: 4px;
+    border-radius: 10px;
+    background-color: hotpink;
+}
+label{
+    margin-left: 5px;
+}
+ input{
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 5px;
+}
+button{
+    margin-left: 5px;
+    margin-bottom: 8px;
+    border-radius: 5px;
+}
+h3{
+    text-align: center;
+}
+article{
+flex: auto;
+
+}
+img{
+    height: 200px;
+    width: 200px;
+    float: right; 
+    margin: 4px;
+    position: relative;
+
+    
+
+}
+footer{
+    background-color: deeppink;
+    text-align: center;
+    color: black;
+    position: relative;
+    width: 100%;
+}
+hr{margin-top: 20px;
+    margin-bottom: 20px;
+
+}

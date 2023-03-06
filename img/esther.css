@@ -4,6 +4,7 @@ header{
     color: black;
     text-align: center;
     font-size: larger;
+    position: relative;
 
 }
 nav > ul{
@@ -11,7 +12,6 @@ nav > ul{
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
-    flex-flow: row nowrap;
 }
 nav > ul >li{
     margin: 0px 30px 0px 30px;
@@ -33,7 +33,7 @@ aside{
 }
  p{
     margin-left: 5px;
-    text-align: center;
+
 }
 form{
     border-style: groove;
@@ -78,8 +78,11 @@ footer{
     background-color: deeppink;
     text-align: center;
     color: black;
-    position: relative;
+    position: relative ;
     width: 100%;
+    flex-wrap: wrap;
+    flex-shrink: 30px;
+    flex-direction: row;
 }
 hr{margin-top: 20px;
     margin-bottom: 20px;
